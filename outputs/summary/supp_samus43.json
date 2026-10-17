@@ -1,0 +1,12 @@
+{
+ "arm": "SAMUS seed-43 (median internal-val seed) under TTA-R2 boxes",
+ "strict": 0.6386,
+ "conditional": 0.6963,
+ "coverage": 0.917,
+ "seed42_reference": {
+  "strict": 0.5945,
+  "conditional": 0.651,
+  "coverage": 0.94
+ },
+ "verdict_note": "criterion (ii) conditional >= 0.75 still fails at 0.696 with seed 43"
+}

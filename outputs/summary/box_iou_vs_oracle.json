@@ -1,0 +1,30 @@
+{
+ "P1_vs_P3": {
+  "n_valid": 14246,
+  "n_no_box": 4076,
+  "iou_mean": 0.3127,
+  "iou_median": 0.3024,
+  "iou_lt0.5_frac": 0.7456
+ },
+ "P4_vs_P3_seed42": {
+  "n_valid": 10283,
+  "n_no_box": 8039,
+  "iou_mean": 0.7638,
+  "iou_median": 0.8186,
+  "iou_lt0.5_frac": 0.0869
+ },
+ "P4_vs_P3_seed43": {
+  "n_valid": 9434,
+  "n_no_box": 8888,
+  "iou_mean": 0.7763,
+  "iou_median": 0.8239,
+  "iou_lt0.5_frac": 0.0705
+ },
+ "P4_vs_P3_seed44": {
+  "n_valid": 10370,
+  "n_no_box": 7952,
+  "iou_mean": 0.7426,
+  "iou_median": 0.8127,
+  "iou_lt0.5_frac": 0.1347
+ }
+}

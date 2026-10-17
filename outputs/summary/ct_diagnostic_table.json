@@ -1,0 +1,551 @@
+{
+ "per_patient": {
+  "200": {
+   "ct_kidney_voxels": {
+    "1": 388500
+   },
+   "ct_total_kidney_voxels": 388500,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "200R"
+   ],
+   "us_fwd_dice": 0.816
+  },
+  "206": {
+   "ct_kidney_voxels": {
+    "1": 456548
+   },
+   "ct_total_kidney_voxels": 456548,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "206L",
+    "206R"
+   ],
+   "us_fwd_dice": 0.5952
+  },
+  "220": {
+   "ct_kidney_voxels": {
+    "1": 644092
+   },
+   "ct_total_kidney_voxels": 644092,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "220R"
+   ],
+   "us_fwd_dice": 0.4184
+  },
+  "239": {
+   "ct_kidney_voxels": {
+    "1": 635589
+   },
+   "ct_total_kidney_voxels": 635589,
+   "voxel_mm3": 0.27
+  },
+  "249": {
+   "ct_kidney_voxels": {
+    "1": 533398
+   },
+   "ct_total_kidney_voxels": 533398,
+   "voxel_mm3": 0.27
+  },
+  "250": {
+   "ct_kidney_voxels": {
+    "1": 626499
+   },
+   "ct_total_kidney_voxels": 626499,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "250L",
+    "250R"
+   ],
+   "us_fwd_dice": 0.611
+  },
+  "258": {
+   "ct_kidney_voxels": {
+    "1": 305089
+   },
+   "ct_total_kidney_voxels": 305089,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "258L",
+    "258R"
+   ],
+   "us_fwd_dice": 0.6956
+  },
+  "263": {
+   "ct_kidney_voxels": {
+    "1": 352470
+   },
+   "ct_total_kidney_voxels": 352470,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "263L",
+    "263R"
+   ],
+   "us_fwd_dice": 0.6184
+  },
+  "283": {
+   "ct_kidney_voxels": {
+    "1": 1125584
+   },
+   "ct_total_kidney_voxels": 1125584,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "283L"
+   ],
+   "us_fwd_dice": 0.6879
+  },
+  "284": {
+   "ct_kidney_voxels": {
+    "1": 241905
+   },
+   "ct_total_kidney_voxels": 241905,
+   "voxel_mm3": 0.27
+  },
+  "314": {
+   "ct_kidney_voxels": {
+    "1": 2093392
+   },
+   "ct_total_kidney_voxels": 2093392,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "314L",
+    "314R"
+   ],
+   "us_fwd_dice": 0.578
+  },
+  "329": {
+   "ct_kidney_voxels": {
+    "1": 601005
+   },
+   "ct_total_kidney_voxels": 601005,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "329L",
+    "329R"
+   ],
+   "us_fwd_dice": 0.6634
+  },
+  "348": {
+   "ct_kidney_voxels": {
+    "1": 473948
+   },
+   "ct_total_kidney_voxels": 473948,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "348L",
+    "348R"
+   ],
+   "us_fwd_dice": 0.6153
+  },
+  "371": {
+   "ct_kidney_voxels": {
+    "1": 845647
+   },
+   "ct_total_kidney_voxels": 845647,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "371R"
+   ],
+   "us_fwd_dice": 0.5934
+  },
+  "398": {
+   "ct_kidney_voxels": {
+    "1": 606573
+   },
+   "ct_total_kidney_voxels": 606573,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "398R"
+   ],
+   "us_fwd_dice": 0.6363
+  },
+  "399": {
+   "ct_kidney_voxels": {
+    "1": 363361
+   },
+   "ct_total_kidney_voxels": 363361,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "399R"
+   ],
+   "us_fwd_dice": 0.7777
+  },
+  "406": {
+   "ct_kidney_voxels": {
+    "1": 979868
+   },
+   "ct_total_kidney_voxels": 979868,
+   "voxel_mm3": 0.27
+  },
+  "418": {
+   "ct_kidney_voxels": {
+    "1": 353532
+   },
+   "ct_total_kidney_voxels": 353532,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "418L",
+    "418R"
+   ],
+   "us_fwd_dice": 0.5917
+  },
+  "443": {
+   "ct_kidney_voxels": {
+    "1": 369544
+   },
+   "ct_total_kidney_voxels": 369544,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "443R"
+   ],
+   "us_fwd_dice": 0.6882
+  },
+  "466": {
+   "ct_kidney_voxels": {
+    "1": 419451
+   },
+   "ct_total_kidney_voxels": 419451,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "466L",
+    "466R"
+   ],
+   "us_fwd_dice": 0.7803
+  },
+  "506": {
+   "ct_kidney_voxels": {
+    "1": 495248
+   },
+   "ct_total_kidney_voxels": 495248,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "506L",
+    "506R"
+   ],
+   "us_fwd_dice": 0.7118
+  },
+  "510": {
+   "ct_kidney_voxels": {
+    "1": 804274
+   },
+   "ct_total_kidney_voxels": 804274,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "510L",
+    "510R"
+   ],
+   "us_fwd_dice": 0.6114
+  },
+  "517": {
+   "ct_kidney_voxels": {
+    "1": 672430
+   },
+   "ct_total_kidney_voxels": 672430,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "517L",
+    "517R"
+   ],
+   "us_fwd_dice": 0.6364
+  },
+  "532": {
+   "ct_kidney_voxels": {
+    "1": 659551
+   },
+   "ct_total_kidney_voxels": 659551,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "532L",
+    "532R"
+   ],
+   "us_fwd_dice": 0.6348
+  },
+  "561": {
+   "ct_kidney_voxels": {
+    "1": 619289
+   },
+   "ct_total_kidney_voxels": 619289,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "561R"
+   ],
+   "us_fwd_dice": 0.6605
+  },
+  "579": {
+   "ct_kidney_voxels": {
+    "1": 446588
+   },
+   "ct_total_kidney_voxels": 446588,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "579L",
+    "579R"
+   ],
+   "us_fwd_dice": 0.5505
+  },
+  "592": {
+   "ct_kidney_voxels": {
+    "1": 439371
+   },
+   "ct_total_kidney_voxels": 439371,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "592R"
+   ],
+   "us_fwd_dice": 0.6699
+  },
+  "610": {
+   "ct_kidney_voxels": {
+    "1": 698319
+   },
+   "ct_total_kidney_voxels": 698319,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "610L"
+   ],
+   "us_fwd_dice": 0.6854
+  },
+  "636": {
+   "ct_kidney_voxels": {
+    "1": 695479
+   },
+   "ct_total_kidney_voxels": 695479,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "636R"
+   ],
+   "us_fwd_dice": 0.7137
+  },
+  "641": {
+   "ct_kidney_voxels": {
+    "1": 742579
+   },
+   "ct_total_kidney_voxels": 742579,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "641L",
+    "641R"
+   ],
+   "us_fwd_dice": 0.5639
+  },
+  "656": {
+   "ct_kidney_voxels": {
+    "1": 371865
+   },
+   "ct_total_kidney_voxels": 371865,
+   "voxel_mm3": 0.27
+  },
+  "680": {
+   "ct_kidney_voxels": {
+    "1": 542465
+   },
+   "ct_total_kidney_voxels": 542465,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "680L"
+   ],
+   "us_fwd_dice": 0.599
+  },
+  "701": {
+   "ct_kidney_voxels": {
+    "1": 582967
+   },
+   "ct_total_kidney_voxels": 582967,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "701L",
+    "701R"
+   ],
+   "us_fwd_dice": 0.5864
+  },
+  "704": {
+   "ct_kidney_voxels": {
+    "1": 321236
+   },
+   "ct_total_kidney_voxels": 321236,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "704L"
+   ],
+   "us_fwd_dice": 0.3493
+  },
+  "711": {
+   "ct_kidney_voxels": {
+    "1": 305169
+   },
+   "ct_total_kidney_voxels": 305169,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "711L"
+   ],
+   "us_fwd_dice": 0.6112
+  },
+  "716": {
+   "ct_kidney_voxels": {
+    "1": 676652
+   },
+   "ct_total_kidney_voxels": 676652,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "716R"
+   ],
+   "us_fwd_dice": 0.7819
+  },
+  "721": {
+   "ct_kidney_voxels": {
+    "1": 339389
+   },
+   "ct_total_kidney_voxels": 339389,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "721L"
+   ],
+   "us_fwd_dice": 0.5518
+  },
+  "735": {
+   "ct_kidney_voxels": {
+    "1": 806024
+   },
+   "ct_total_kidney_voxels": 806024,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "735R"
+   ],
+   "us_fwd_dice": 0.5101
+  },
+  "737": {
+   "ct_kidney_voxels": {
+    "1": 348059
+   },
+   "ct_total_kidney_voxels": 348059,
+   "voxel_mm3": 0.27
+  },
+  "738": {
+   "ct_kidney_voxels": {
+    "1": 960120
+   },
+   "ct_total_kidney_voxels": 960120,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "738R"
+   ],
+   "us_fwd_dice": 0.606
+  },
+  "755": {
+   "ct_kidney_voxels": {
+    "1": 343431
+   },
+   "ct_total_kidney_voxels": 343431,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "755L",
+    "755R"
+   ],
+   "us_fwd_dice": 0.645
+  },
+  "794": {
+   "ct_kidney_voxels": {
+    "1": 476262
+   },
+   "ct_total_kidney_voxels": 476262,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "794L",
+    "794R"
+   ],
+   "us_fwd_dice": 0.6893
+  },
+  "801": {
+   "ct_kidney_voxels": {
+    "1": 578248
+   },
+   "ct_total_kidney_voxels": 578248,
+   "voxel_mm3": 0.27
+  },
+  "832": {
+   "ct_kidney_voxels": {
+    "1": 479001
+   },
+   "ct_total_kidney_voxels": 479001,
+   "voxel_mm3": 0.27
+  },
+  "861": {
+   "ct_kidney_voxels": {
+    "1": 413384
+   },
+   "ct_total_kidney_voxels": 413384,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "861L",
+    "861R"
+   ],
+   "us_fwd_dice": 0.5428
+  },
+  "905": {
+   "ct_kidney_voxels": {
+    "1": 820029
+   },
+   "ct_total_kidney_voxels": 820029,
+   "voxel_mm3": 0.27
+  },
+  "915": {
+   "ct_kidney_voxels": {
+    "1": 686886
+   },
+   "ct_total_kidney_voxels": 686886,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "915L"
+   ],
+   "us_fwd_dice": 0.6974
+  },
+  "948": {
+   "ct_kidney_voxels": {
+    "1": 617900
+   },
+   "ct_total_kidney_voxels": 617900,
+   "voxel_mm3": 0.27,
+   "us_kidneys": [
+    "948L",
+    "948R"
+   ],
+   "us_fwd_dice": 0.5833
+  }
+ },
+ "ct_volume_vs_us_dice_pearson_r": -0.0804,
+ "ct_volume_quartiles": [
+  {
+   "ct_vol_range_mm3": [
+    0,
+    108254.3
+   ],
+   "n_kidneys": 10,
+   "us_fwd_dice_mean": 0.6345
+  },
+  {
+   "ct_vol_range_mm3": [
+    108254.3,
+    157401.1
+   ],
+   "n_kidneys": 9,
+   "us_fwd_dice_mean": 0.6393
+  },
+  {
+   "ct_vol_range_mm3": [
+    157401.1,
+    184077.6
+   ],
+   "n_kidneys": 10,
+   "us_fwd_dice_mean": 0.6212
+  },
+  {
+   "ct_vol_range_mm3": [
+    184077.6,
+    1000000000.0
+   ],
+   "n_kidneys": 10,
+   "us_fwd_dice_mean": 0.6247
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "anova_variance_components_per_model": {
+  "medsam": {
+   "sigma2_seed": 0.0,
+   "sd_seed": 0.0,
+   "MSB": 0.0,
+   "MSW": 1e-06
+  },
+  "nnunet": {
+   "sigma2_seed": 8.3e-05,
+   "sd_seed": 0.0091,
+   "MSB": 0.003486,
+   "MSW": 0.000265
+  },
+  "sam_lora": {
+   "sigma2_seed": 0.0,
+   "sd_seed": 0.0003,
+   "MSB": 1.4e-05,
+   "MSW": 1e-05
+  },
+  "samus": {
+   "sigma2_seed": 0.000147,
+   "sd_seed": 0.0121,
+   "MSB": 0.006048,
+   "MSW": 0.000303
+  },
+  "unet": {
+   "sigma2_seed": 0.0,
+   "sd_seed": 0.0,
+   "MSB": 0.000539,
+   "MSW": 0.008572
+  },
+  "usfm": {
+   "sigma2_seed": 0.000188,
+   "sd_seed": 0.0137,
+   "MSB": 0.00937,
+   "MSW": 0.002022
+  }
+ },
+ "mixedlm_patient_level": {
+  "converged": true,
+  "seed_variance_component": 0.008717,
+  "fixed_effects": {
+   "Intercept": 0.43625,
+   "C(model)[T.nnunet]": 0.19336,
+   "C(model)[T.sam_lora]": -0.00261,
+   "C(model)[T.samus]": -0.0225,
+   "C(model)[T.unet]": -0.1423,
+   "C(model)[T.usfm]": 0.03653
+  }
+ },
+ "note": "registered wording (seed RANDOM effect) closed by both estimators; seed variance components are at or near zero relative to between-model effects -> conclusions unchanged from the fixed-effect fit"
+}

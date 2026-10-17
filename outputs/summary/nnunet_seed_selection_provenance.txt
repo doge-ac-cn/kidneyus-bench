@@ -1,0 +1,21 @@
+# nnU-Net P5 box-source seed selection - provenance extract
+# Amendment 1 section 3 [TO FILL] = 42; extracted 2026-10-11T11:10:51+08:00
+# Rule: final EMA 'Pseudo dice' line of each seed's registered OKD training log (fold_0), median of three.
+# Full training logs are on the compute server under
+# data/nnunet/nnUNetResults/Dataset001_KidneyUS/nnUNetTrainerSeed<seed>__nnUNetPlans__2d/fold_0/ (gitignored).
+
+## Extraction command
+for s in 42 43 44; do grep "Pseudo dice" $d/training_log*.txt | tail -1; done
+
+## Raw final validation lines (verbatim)
+seed42 file=training_log_2026_10_8_22_59_00.txt
+2026-10-09 10:42:33.836962: Pseudo dice [0.9486] 
+seed43 file=training_log_2026_10_8_22_59_00.txt
+2026-10-09 09:50:33.095906: Pseudo dice [0.9484] 
+seed44 file=training_log_2026_10_9_10_43_03.txt
+2026-10-09 21:25:53.175760: Pseudo dice [0.9519] 
+
+## Median computation
+sorted: 43=0.9484, 42=0.9486, 44=0.9519
+median value 0.9486 -> seed 42
+selected seed: 42

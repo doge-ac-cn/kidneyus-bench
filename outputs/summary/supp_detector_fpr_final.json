@@ -1,0 +1,41 @@
+{
+ "set_sizes": {
+  "staple": 3455,
+  "A": 1074,
+  "B": 1035
+ },
+ "flag_rates": {
+  "staple": 0.1886,
+  "A": 0.0586,
+  "B": 0.0565
+ },
+ "documented_rater_flag_expectation": 0.0588,
+ "staple_vs_A": {
+  "J_tol0": 0.198,
+  "J_tol1": 0.52,
+  "J_tol2": 0.598,
+  "J_tol0_chance": 0.047,
+  "J_tol1_chance": 0.155,
+  "J_tol2_chance": 0.288
+ },
+ "staple_vs_B": {
+  "J_tol0": 0.199,
+  "J_tol1": 0.5,
+  "J_tol2": 0.588,
+  "J_tol0_chance": 0.045,
+  "J_tol1_chance": 0.15,
+  "J_tol2_chance": 0.278
+ },
+ "A_vs_B": {
+  "J_tol0": 0.3,
+  "J_tol1": 0.641,
+  "J_tol2": 0.785,
+  "J_tol0_chance": 0.03,
+  "J_tol1_chance": 0.094,
+  "J_tol2_chance": 0.168
+ },
+ "permutation_null_staple_vs_A_exact": {
+  "mean": 0.086,
+  "p95": 0.095
+ }
+}

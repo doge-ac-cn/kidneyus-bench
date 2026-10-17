@@ -1,0 +1,12 @@
+{
+ "n_kidneys": 59,
+ "mean_dice_2d": 0.7788,
+ "mean_dice_3d": 0.7776,
+ "bias_2d_minus_3d": 0.0012,
+ "limits_of_agreement_95": [
+  -0.2376,
+  0.2399
+ ],
+ "pearson_r_means": 0.2305,
+ "note": "per-kidney 3D Dice, reverse-direction 5-fold CV; positive bias = 2d higher than 3d on the same held-out kidney"
+}

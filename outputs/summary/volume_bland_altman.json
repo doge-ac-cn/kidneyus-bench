@@ -1,0 +1,33 @@
+{
+ "nnunet_zeroshot_vs_ct": {
+  "n": 59,
+  "bias_ml": 147.85,
+  "loa95_ml": [
+   -54.66,
+   350.37
+  ],
+  "mean_us_pred_ml": 344.43,
+  "mean_ct_ref_ml": 196.57
+ },
+ "us_gt_vs_ct": {
+  "n": 59,
+  "bias_ml": -26.98,
+  "loa95_ml": [
+   -128.7,
+   74.75
+  ],
+  "mean_us_pred_ml": 169.6,
+  "mean_ct_ref_ml": 196.57
+ },
+ "tta_r2_vs_ct": {
+  "config": "TTA-R2 (medsam42, r2_s43 detector)",
+  "n": 59,
+  "bias_ml": 20.32,
+  "loa95_ml": [
+   -138.63,
+   179.28
+  ],
+  "mean_us_pred_ml": 216.9,
+  "note": "undetected slices contribute 0 volume; TTA-R2 no-box slice rate 8.3% (clustered near poles) biases US volumes downward - interpret the negative bias with this in mind"
+ }
+}

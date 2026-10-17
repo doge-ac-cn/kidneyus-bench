@@ -1,0 +1,21 @@
+{
+ "caliber_note": "slice-mean calibers unless stated; 3D rows are volume Dice (reverse = nnU-Net's own 3D exports; forward = stacked E2 slices + closing/LCC)",
+ "in_domain_ceiling_reverse_cv": {
+  "2d_slice": 0.678,
+  "2d_volume": 0.7788,
+  "3d_volume": 0.7776
+ },
+ "forward_e2_nnunet_domain_shifted": {
+  "2d_slice": 0.6241,
+  "3d_volume": 0.7212
+ },
+ "domain_degradation": {
+  "2d_slice": -0.0539,
+  "3d_volume": -0.0564
+ },
+ "annotation_format_ceiling": {
+  "iod_direct": 0.906316,
+  "oracle_box_medsam": 0.8842,
+  "pole_slice_cost_all_models": "see pole_stratification.json"
+ }
+}

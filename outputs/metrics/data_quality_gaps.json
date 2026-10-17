@@ -1,0 +1,54 @@
+{
+  "known_gaps": [
+    {
+      "model": "medsam",
+      "seed": "42",
+      "prompt": "p1",
+      "expected": 18322,
+      "actual": 18318,
+      "missing": 4
+    },
+    {
+      "model": "medsam",
+      "seed": "42",
+      "prompt": "p2",
+      "expected": 18322,
+      "actual": 18319,
+      "missing": 3
+    },
+    {
+      "model": "medsam",
+      "seed": "42",
+      "prompt": "p4",
+      "expected": 18322,
+      "actual": 18319,
+      "missing": 3
+    },
+    {
+      "model": "medsam",
+      "seed": "44",
+      "prompt": "p1",
+      "expected": 18322,
+      "actual": 18319,
+      "missing": 3
+    },
+    {
+      "model": "medsam",
+      "seed": "44",
+      "prompt": "p2",
+      "expected": 18322,
+      "actual": 18318,
+      "missing": 4
+    },
+    {
+      "model": "medsam",
+      "seed": "44",
+      "prompt": "p4",
+      "expected": 18322,
+      "actual": 18318,
+      "missing": 4
+    }
+  ],
+  "summary": "medsam/42/p1 差4行 ((withheld internal slice codes)); medsam/42/p2 差3行; medsam/42/p4 差3行; medsam/44/p1/p2/p4 各差3行 ((withheld internal slice codes)); 共~13行 / 494,694 总行 = 0.003%",
+  "totals_note": "六格合计缺 21 行 / 494,694 行 = 0.004%（此前文档曾分别写 10 行或 13 行，均只覆盖部分种子；以 21 行为准）"
+}

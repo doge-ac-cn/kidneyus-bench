@@ -1,0 +1,450 @@
+{
+ "e2_friedman": {
+  "friedman_chi2": 123.337,
+  "friedman_p": 6.161557711732574e-25,
+  "n_clusters": 39,
+  "pairwise": [
+   {
+    "model_a": "medsam",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.170351,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.172676,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "samus",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.187283,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "nnunet",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.339057,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "unet",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.179374,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "nnunet",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.16535,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "samus",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.023657,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "samus",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.019805,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 1e-06,
+    "median_diff_a_minus_b": 0.144994,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 2e-06,
+    "median_diff_a_minus_b": 0.145311,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "samus",
+    "model_b": "unet",
+    "p_wilcoxon": 1e-06,
+    "p_holm": 3e-06,
+    "median_diff_a_minus_b": 0.140334,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "sam_lora",
+    "p_wilcoxon": 0.016812,
+    "p_holm": 0.06725,
+    "median_diff_a_minus_b": 0.002995,
+    "significant_0.05": false
+   },
+   {
+    "model_a": "samus",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.022158,
+    "p_holm": 0.06725,
+    "median_diff_a_minus_b": -0.034388,
+    "significant_0.05": false
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.184738,
+    "p_holm": 0.369476,
+    "median_diff_a_minus_b": -0.020466,
+    "significant_0.05": false
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.199107,
+    "p_holm": 0.369476,
+    "median_diff_a_minus_b": -0.018322,
+    "significant_0.05": false
+   }
+  ]
+ },
+ "e2_headline_ci": {
+  "medsam": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.4363,
+    "ci95_low": 0.3921,
+    "ci95_high": 0.482
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.4419,
+    "ci95_low": 0.401,
+    "ci95_high": 0.4797
+   },
+   "normalized_direct": 0.4814,
+   "normalized_consensus": 0.4603
+  },
+  "sam_lora": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.4336,
+    "ci95_low": 0.3894,
+    "ci95_high": 0.4789
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.4394,
+    "ci95_low": 0.3995,
+    "ci95_high": 0.4761
+   },
+   "normalized_direct": 0.4784,
+   "normalized_consensus": 0.4575
+  },
+  "samus": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.4138,
+    "ci95_low": 0.3705,
+    "ci95_high": 0.457
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.4174,
+    "ci95_low": 0.3794,
+    "ci95_high": 0.452
+   },
+   "normalized_direct": 0.4566,
+   "normalized_consensus": 0.4366
+  },
+  "nnunet": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.6296,
+    "ci95_low": 0.6012,
+    "ci95_high": 0.6583
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.6282,
+    "ci95_low": 0.6046,
+    "ci95_high": 0.6521
+   },
+   "normalized_direct": 0.6947,
+   "normalized_consensus": 0.6643
+  },
+  "unet": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.294,
+    "ci95_low": 0.2646,
+    "ci95_high": 0.3241
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.2929,
+    "ci95_low": 0.2687,
+    "ci95_high": 0.3157
+   },
+   "normalized_direct": 0.3244,
+   "normalized_consensus": 0.3102
+  },
+  "usfm": {
+   "slice_mean_ci_patient39": {
+    "mean": 0.4728,
+    "ci95_low": 0.4414,
+    "ci95_high": 0.5063
+   },
+   "kidney_mean_ci_kidney59": {
+    "mean": 0.476,
+    "ci95_low": 0.4483,
+    "ci95_high": 0.5018
+   },
+   "normalized_direct": 0.5217,
+   "normalized_consensus": 0.4988
+  }
+ },
+ "e2_prompt_rank_medsam": {
+  "friedman_chi2": 64.2051,
+  "friedman_p": 1.1429666415058749e-14,
+  "n_clusters": 39,
+  "pairwise": [
+   {
+    "model_a": "p4",
+    "model_b": "p2",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.4227,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p1",
+    "model_b": "p2",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.305395,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p4",
+    "model_b": "p1",
+    "p_wilcoxon": 7e-06,
+    "p_holm": 7e-06,
+    "median_diff_a_minus_b": 0.145616,
+    "significant_0.05": true
+   }
+  ]
+ },
+ "e2_prompt_rank_sam_lora": {
+  "friedman_chi2": 28.359,
+  "friedman_p": 6.949074404306872e-07,
+  "n_clusters": 39,
+  "pairwise": [
+   {
+    "model_a": "p4",
+    "model_b": "p2",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.186591,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p4",
+    "model_b": "p1",
+    "p_wilcoxon": 0.000234,
+    "p_holm": 0.000468,
+    "median_diff_a_minus_b": 0.107777,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p1",
+    "model_b": "p2",
+    "p_wilcoxon": 0.000284,
+    "p_holm": 0.000468,
+    "median_diff_a_minus_b": 0.099661,
+    "significant_0.05": true
+   }
+  ]
+ },
+ "e2_prompt_rank_samus": {
+  "friedman_chi2": 7.5385,
+  "friedman_p": 0.023069802465486414,
+  "n_clusters": 39,
+  "pairwise": [
+   {
+    "model_a": "p1",
+    "model_b": "p2",
+    "p_wilcoxon": 0.000302,
+    "p_holm": 0.000907,
+    "median_diff_a_minus_b": -0.036514,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p4",
+    "model_b": "p2",
+    "p_wilcoxon": 0.014884,
+    "p_holm": 0.029768,
+    "median_diff_a_minus_b": -0.047437,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "p4",
+    "model_b": "p1",
+    "p_wilcoxon": 0.372133,
+    "p_holm": 0.372133,
+    "median_diff_a_minus_b": -0.025449,
+    "significant_0.05": false
+   }
+  ]
+ },
+ "e1_friedman": {
+  "friedman_chi2": 311.4946,
+  "friedman_p": 3.3804340606418694e-65,
+  "n_clusters": 93,
+  "pairwise": [
+   {
+    "model_a": "medsam",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.231567,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "nnunet",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.230196,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.232208,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "samus",
+    "model_b": "unet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.20191,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "unet",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.183954,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "nnunet",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.052863,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.045105,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "samus",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.025455,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "samus",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.022726,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "usfm",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": 0.049517,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "samus",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.0,
+    "p_holm": 0.0,
+    "median_diff_a_minus_b": -0.028658,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "samus",
+    "model_b": "usfm",
+    "p_wilcoxon": 9.2e-05,
+    "p_holm": 0.000369,
+    "median_diff_a_minus_b": 0.01519,
+    "significant_0.05": true
+   },
+   {
+    "model_a": "sam_lora",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.043661,
+    "p_holm": 0.130982,
+    "median_diff_a_minus_b": -0.003264,
+    "significant_0.05": false
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "nnunet",
+    "p_wilcoxon": 0.251149,
+    "p_holm": 0.502299,
+    "median_diff_a_minus_b": -0.00156,
+    "significant_0.05": false
+   },
+   {
+    "model_a": "medsam",
+    "model_b": "sam_lora",
+    "p_wilcoxon": 0.39392,
+    "p_holm": 0.502299,
+    "median_diff_a_minus_b": 0.002023,
+    "significant_0.05": false
+   }
+  ]
+ },
+ "e2_lmm": {
+  "converged": true,
+  "fixed_effects": {
+   "Intercept": 0.43807,
+   "C(model)[T.nnunet]": 0.18161,
+   "C(model)[T.sam_lora]": -0.00231,
+   "C(model)[T.samus]": -0.02495,
+   "C(model)[T.unet]": -0.15348,
+   "C(model)[T.usfm]": 0.02827,
+   "C(seed)[T.43]": 0.00224,
+   "C(seed)[T.44]": 0.00897,
+   "Group Var": 0.07857
+  },
+  "patient_var": 0.00974
+ }
+}

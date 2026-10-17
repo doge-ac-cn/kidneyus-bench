@@ -1,0 +1,48 @@
+test,statistic,p,note
+E2 Friedman 6-model family (patient vectors),123.337,6.161557711732574e-25,n_patients=39; Holm-corrected pairwise rows follow
+E2 Wilcoxon medsam vs nnunet (Holm),,0.0,"raw p=0.0, median diff=-0.170351, sig=True"
+E2 Wilcoxon sam_lora vs nnunet (Holm),,0.0,"raw p=0.0, median diff=-0.172676, sig=True"
+E2 Wilcoxon samus vs nnunet (Holm),,0.0,"raw p=0.0, median diff=-0.187283, sig=True"
+E2 Wilcoxon nnunet vs unet (Holm),,0.0,"raw p=0.0, median diff=0.339057, sig=True"
+E2 Wilcoxon unet vs usfm (Holm),,0.0,"raw p=0.0, median diff=-0.179374, sig=True"
+E2 Wilcoxon nnunet vs usfm (Holm),,0.0,"raw p=0.0, median diff=0.16535, sig=True"
+E2 Wilcoxon medsam vs samus (Holm),,0.0,"raw p=0.0, median diff=0.023657, sig=True"
+E2 Wilcoxon sam_lora vs samus (Holm),,0.0,"raw p=0.0, median diff=0.019805, sig=True"
+E2 Wilcoxon medsam vs unet (Holm),,1e-06,"raw p=0.0, median diff=0.144994, sig=True"
+E2 Wilcoxon sam_lora vs unet (Holm),,2e-06,"raw p=0.0, median diff=0.145311, sig=True"
+E2 Wilcoxon samus vs unet (Holm),,3e-06,"raw p=1e-06, median diff=0.140334, sig=True"
+E2 Wilcoxon medsam vs sam_lora (Holm),,0.06725,"raw p=0.016812, median diff=0.002995, sig=False"
+E2 Wilcoxon samus vs usfm (Holm),,0.06725,"raw p=0.022158, median diff=-0.034388, sig=False"
+E2 Wilcoxon sam_lora vs usfm (Holm),,0.369476,"raw p=0.184738, median diff=-0.020466, sig=False"
+E2 Wilcoxon medsam vs usfm (Holm),,0.369476,"raw p=0.199107, median diff=-0.018322, sig=False"
+E2 CI medsam (headline p4),0.4363,,"patient39 CI [0.3921,0.482]; kidney59 CI [0.401,0.4797]; norm(direct)=0.4814"
+E2 CI sam_lora (headline p4),0.4336,,"patient39 CI [0.3894,0.4789]; kidney59 CI [0.3995,0.4761]; norm(direct)=0.4784"
+E2 CI samus (headline p4),0.4138,,"patient39 CI [0.3705,0.457]; kidney59 CI [0.3794,0.452]; norm(direct)=0.4566"
+E2 CI nnunet (headline none),0.6296,,"patient39 CI [0.6012,0.6583]; kidney59 CI [0.6046,0.6521]; norm(direct)=0.6947"
+E2 CI unet (headline none),0.294,,"patient39 CI [0.2646,0.3241]; kidney59 CI [0.2687,0.3157]; norm(direct)=0.3244"
+E2 CI usfm (headline none),0.4728,,"patient39 CI [0.4414,0.5063]; kidney59 CI [0.4483,0.5018]; norm(direct)=0.5217"
+E2 MedSAM(p4) vs nnU-Net (required contrast),0.0,3.637978807091713e-12,"n=39 patients, median diff=-0.1704"
+E2 seed-direction consistency medsam vs nnunet,,,0/0 seeds agree in direction
+E2 seed-direction consistency medsam vs sam_lora,,,0/0 seeds agree in direction
+E2 seed-direction consistency nnunet vs unet,,,0/0 seeds agree in direction
+E2 prompt ranking medsam (P4/P1/P2 Friedman),64.2051,1.1429666415058749e-14,p4vsp2: holm p=0.0; p1vsp2: holm p=0.0; p4vsp1: holm p=7e-06
+E2 prompt ranking sam_lora (P4/P1/P2 Friedman),28.359,6.949074404306872e-07,p4vsp2: holm p=0.0; p4vsp1: holm p=0.000468; p1vsp2: holm p=0.000468
+E2 prompt ranking samus (P4/P1/P2 Friedman),7.5385,0.023069802465486414,p1vsp2: holm p=0.000907; p4vsp2: holm p=0.029768; p4vsp1: holm p=0.372133
+E2 medsam P3(oracle) vs P4(auto),0.0,3.637978807091713e-12,n=39; median gap=0.4376 (domain-transfer prompt gap)
+E2 sam_lora P3(oracle) vs P4(auto),0.0,3.637978807091713e-12,n=39; median gap=0.4315 (domain-transfer prompt gap)
+E2 samus P3(oracle) vs P4(auto),0.0,3.637978807091713e-12,n=39; median gap=0.3274 (domain-transfer prompt gap)
+E1 Friedman 6-model family,311.4946,3.3804340606418694e-65,n=93 patients
+E1 CI medsam,0.9285,,"patient93 CI [0.9151,0.9398]"
+E1 CI sam_lora,0.9283,,"patient93 CI [0.9148,0.9398]"
+E1 CI samus,0.8911,,"patient93 CI [0.8724,0.907]"
+E1 CI nnunet,0.9317,,"patient93 CI [0.9186,0.9429]"
+E1 CI unet,0.6773,,"patient93 CI [0.6558,0.698]"
+E1 CI usfm,0.8625,,"patient93 CI [0.8417,0.8817]"
+Internal vs External medsam,0.9285,,E1 0.9285 -> E2 0.4363 (retention 0.470); normalized(direct) E1 1.025 E2 0.481
+Internal vs External sam_lora,0.9283,,E1 0.9283 -> E2 0.4336 (retention 0.467); normalized(direct) E1 1.024 E2 0.478
+Internal vs External samus,0.8911,,E1 0.8911 -> E2 0.4138 (retention 0.464); normalized(direct) E1 0.983 E2 0.457
+Internal vs External nnunet,0.9317,,E1 0.9317 -> E2 0.6296 (retention 0.676); normalized(direct) E1 1.028 E2 0.695
+Internal vs External unet,0.6773,,E1 0.6773 -> E2 0.2940 (retention 0.434); normalized(direct) E1 0.747 E2 0.324
+Internal vs External usfm,0.8625,,E1 0.8625 -> E2 0.4728 (retention 0.548); normalized(direct) E1 0.952 E2 0.522
+"E2 LMM cross-check (dice ~ model + seed, patient RI)",,,converged=True; patient_var=0.00974
+pole stratification,,,see outputs/figures/bimodal (built in the P1-3 audit)

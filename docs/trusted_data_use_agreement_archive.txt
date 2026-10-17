@@ -1,0 +1,46 @@
+The TRUSTED Kidney Dataset Use Agreement (DUA)
+
+This document must be read and signed by all individuals who request public access to IRCAD France's TRUSTED Kidney Dataset (referred to as the TRUSTED dataset in this agreement).
+
+
+1 ACCESS
+
+The user may only use the dataset after this DUA has been signed and returned to the dataset administrators. The user must print and sign the DUA, then scan it and send it by email (preferable in pdf format). Please send the scanned DUA to alexandre.hostettler@ircad.fr. Upon receipt of the DUA, a link to access the dataset will be provided. The user may not grant anyone access to the dataset by giving out its access link.
+
+2 DISTRIBUTION
+
+The user may not distribute the dataset or portions thereof in any way, with the exception of using small portions of data for the exclusive purpose of clarifying academic publications or presentations. Note that publications will have to comply with the terms stated in article 5.
+
+3 WARRANTY
+
+The dataset comes without any warranty, the TRUSTED dataset administrators can not be held accountable for any damage (physical, financial or otherwise) caused by the use of the dataset.
+
+4 CHANGES
+
+The TRUSTED dataset administrators reserve the right to change this DUA at any time users will be informed about changes beforehand and given the choice to opt out of the new DUA. Opting out will render the previous DUA void (and thus the user will lose their right to use the dataset).
+
+5 SIGNED AGREEMENT
+
+By signing this agreement, I/ We agree to the above, and following, regarding the use of the TRUSTED Dataset:
+
+    a) Citation/ Reference: All documents and published artefacts including presentations and educational material, that use the TRUSTED dataset will acknowledge the use of the dataset by including an appropriate citation to our paper:
+XX INSERT AFTER ARTICLE-ACCEPTANCE XX
+    b) Required Information: All requests should be accompanied by the duly completed information asked above.
+
+
+Signed:
+
+Signature:
+
+Date and Place:
+
+Name (in CAPITAL):	
+
+Designation:
+
+Department and Institution:
+
+Telephone and Address:
+
+Institutional E-mail:	
+

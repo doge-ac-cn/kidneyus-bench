@@ -1,0 +1,249 @@
+{
+ "definition": {
+  "pole": "canonical pole slices (GT area < 15% of kidney median), n=999",
+  "discontinuity": "boundary-discontinuity detector flags, n=3456 (scored subset)",
+  "rest": "all other scored slices"
+ },
+ "A_vs_B": {
+  "pole": {
+   "n": 999,
+   "dice_mean": 0.6182,
+   "iou_mean": 0.4858,
+   "iou_median": 0.5078
+  },
+  "discontinuity": {
+   "n": 3036,
+   "dice_mean": 0.8877,
+   "iou_mean": 0.81,
+   "iou_median": 0.8531
+  },
+  "rest": {
+   "n": 14287,
+   "dice_mean": 0.9304,
+   "iou_mean": 0.875,
+   "iou_median": 0.9011
+  }
+ },
+ "models": {
+  "nnunet": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0259,
+    "dice_vs_A": 0.0339,
+    "dice_vs_B": 0.0383
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.3915,
+    "dice_vs_A": 0.3933,
+    "dice_vs_B": 0.3981
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7113,
+    "dice_vs_A": 0.7079,
+    "dice_vs_B": 0.7139
+   }
+  },
+  "medsam_p3": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.7046,
+    "dice_vs_A": 0.5701,
+    "dice_vs_B": 0.5817
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.8605,
+    "dice_vs_A": 0.8304,
+    "dice_vs_B": 0.8349
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.8997,
+    "dice_vs_A": 0.883,
+    "dice_vs_B": 0.8859
+   }
+  },
+  "medsam_p4reg": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0008,
+    "dice_vs_A": 0.0008,
+    "dice_vs_B": 0.0015
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.1626,
+    "dice_vs_A": 0.1613,
+    "dice_vs_B": 0.1625
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.5328,
+    "dice_vs_A": 0.5288,
+    "dice_vs_B": 0.5327
+   }
+  },
+  "medsam_tta_r2s43": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0453,
+    "dice_vs_A": 0.0637,
+    "dice_vs_B": 0.0603
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.5187,
+    "dice_vs_A": 0.5206,
+    "dice_vs_B": 0.5239
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7588,
+    "dice_vs_A": 0.7547,
+    "dice_vs_B": 0.7609
+   }
+  },
+  "samlora_p3": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.3722,
+    "dice_vs_A": 0.3233,
+    "dice_vs_B": 0.3066
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.8361,
+    "dice_vs_A": 0.8105,
+    "dice_vs_B": 0.8167
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.8939,
+    "dice_vs_A": 0.8789,
+    "dice_vs_B": 0.8846
+   }
+  },
+  "samlora_p4reg": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0007,
+    "dice_vs_A": 0.0007,
+    "dice_vs_B": 0.0014
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.1613,
+    "dice_vs_A": 0.1601,
+    "dice_vs_B": 0.1619
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.5313,
+    "dice_vs_A": 0.5276,
+    "dice_vs_B": 0.5326
+   }
+  },
+  "samlora_tta_r2s43": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0522,
+    "dice_vs_A": 0.0717,
+    "dice_vs_B": 0.069
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.5179,
+    "dice_vs_A": 0.52,
+    "dice_vs_B": 0.5252
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7551,
+    "dice_vs_A": 0.7515,
+    "dice_vs_B": 0.7591
+   }
+  },
+  "samus_p3": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.3672,
+    "dice_vs_A": 0.409,
+    "dice_vs_B": 0.4073
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.6253,
+    "dice_vs_A": 0.6373,
+    "dice_vs_B": 0.6445
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7495,
+    "dice_vs_A": 0.7539,
+    "dice_vs_B": 0.7613
+   }
+  },
+  "samus_p4reg": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0008,
+    "dice_vs_A": 0.0009,
+    "dice_vs_B": 0.0015
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.1447,
+    "dice_vs_A": 0.1449,
+    "dice_vs_B": 0.1469
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.4848,
+    "dice_vs_A": 0.485,
+    "dice_vs_B": 0.4905
+   }
+  },
+  "samus_tta_r2s43": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0329,
+    "dice_vs_A": 0.0468,
+    "dice_vs_B": 0.0467
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.4317,
+    "dice_vs_A": 0.4389,
+    "dice_vs_B": 0.4457
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.6684,
+    "dice_vs_A": 0.6715,
+    "dice_vs_B": 0.6791
+   }
+  },
+  "samus43_tta_r2s43": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0359,
+    "dice_vs_A": 0.0521,
+    "dice_vs_B": 0.0489
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.4721,
+    "dice_vs_A": 0.4777,
+    "dice_vs_B": 0.4826
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7161,
+    "dice_vs_A": 0.7159,
+    "dice_vs_B": 0.7233
+   }
+  }
+ }
+}
