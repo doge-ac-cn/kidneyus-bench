@@ -1,0 +1,29 @@
+{
+ "caliber": "registered seed 43; MedSAM seed-43 weights; common subset = slices detected by the registered P4 detector",
+ "common_subset_n": 9434,
+ "p1": {
+  "conditional_dice_on_common_subset": 0.4642,
+  "coverage_on_common_subset": 0.9427,
+  "n": 9434
+ },
+ "p5_nnunet_s43": {
+  "conditional_dice_on_common_subset": 0.8533,
+  "coverage_on_common_subset": 1.0,
+  "n": 9434
+ },
+ "p4_tta_r2": {
+  "conditional_dice_on_common_subset": 0.8681,
+  "coverage_on_common_subset": 0.9996,
+  "n": 9434
+ },
+ "p4_registered": {
+  "conditional_dice_on_common_subset": 0.8594,
+  "coverage_on_common_subset": 1.0,
+  "n": 9434
+ },
+ "oracle": {
+  "conditional_dice_on_common_subset": 0.9218,
+  "coverage_on_common_subset": 1.0,
+  "n": 9434
+ }
+}

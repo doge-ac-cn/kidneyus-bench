@@ -1,0 +1,27 @@
+{
+ "definition": "scored slices with GT area < 15% of the kidney's median scored-slice area; oracle box = registered p3 pathway",
+ "models": {
+  "42": {
+   "pole_dice_mean": 0.7046,
+   "pole_n": 999,
+   "rest_dice_mean": 0.8928,
+   "rest_n": 17323
+  },
+  "43": {
+   "pole_dice_mean": 0.7202,
+   "pole_n": 999,
+   "rest_dice_mean": 0.8931,
+   "rest_n": 17323
+  },
+  "44": {
+   "pole_dice_mean": 0.7245,
+   "pole_n": 999,
+   "rest_dice_mean": 0.8958,
+   "rest_n": 17323
+  }
+ },
+ "pooled_3seed": {
+  "pole_dice_mean": 0.7164,
+  "rest_dice_mean": 0.8939
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "caliber": "registered seed 43 weights under the TTA-R2 boxes",
+ "n_boot": 2000,
+ "bootstrap": "patient clusters resampled with replacement, duplicates preserved",
+ "medsam": {
+  "strict": {
+   "point": 0.6837,
+   "ci95": [
+    0.6575,
+    0.7118
+   ]
+  },
+  "conditional": {
+   "point": 0.7419,
+   "ci95": [
+    0.7188,
+    0.7666
+   ]
+  },
+  "coverage": 0.917
+ },
+ "sam_lora": {
+  "strict": {
+   "point": 0.6796,
+   "ci95": [
+    0.6539,
+    0.7088
+   ]
+  },
+  "conditional": {
+   "point": 0.7374,
+   "ci95": [
+    0.7141,
+    0.7621
+   ]
+  },
+  "coverage": 0.917
+ },
+ "samus": {
+  "strict": {
+   "point": 0.6436,
+   "ci95": [
+    0.6188,
+    0.6709
+   ]
+  },
+  "conditional": {
+   "point": 0.698,
+   "ci95": [
+    0.6769,
+    0.7212
+   ]
+  },
+  "coverage": 0.917
+ }
+}

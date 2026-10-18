@@ -1,0 +1,49 @@
+{
+ "caliber": "registered seed 43 (model weights); round-level means across the three detector replicates; frozen section-4.4 rules",
+ "criteria": {
+  "(i) no_box<25%": {
+   "value": 0.0583,
+   "pass": true
+  },
+  "(ii) conditional>=0.75 all models": {
+   "medsam": 0.7323,
+   "sam_lora": 0.728,
+   "samus": 0.6859
+  },
+  "(iii) strict>=0.55 all models": {
+   "medsam": 0.6894,
+   "sam_lora": 0.6854,
+   "samus": 0.6458
+  }
+ },
+ "ii_pass": false,
+ "iii_pass": true,
+ "verdict": "NEGATIVE result (criteria (ii) fail; (i)/(iii) pass; (iv) detector-level OKD non-regression unchanged)",
+ "note": "replaces the earlier seed-42 execution caliber; the (ii) failure is unchanged in direction (conditional 0.732/0.728/0.686 at seed 43 vs 0.743/0.738/0.651 at seed 42).",
+ "previous_seed42": {
+  "criteria": {
+   "(i) no_box<25%": {
+    "value": 0.0583,
+    "pass": true
+   },
+   "(ii) conditional>=0.75 all models": {
+    "medsam": 0.7328,
+    "sam_lora": 0.7298,
+    "samus": 0.6365
+   },
+   "(iii) strict>=0.55 all models": {
+    "medsam": 0.69,
+    "sam_lora": 0.6872,
+    "samus": 0.5992
+   },
+   "(iv) OKD non-regression": {
+    "det_drop_pp": 0.67,
+    "ap_drop": 0.0263,
+    "pass": false
+   }
+  },
+  "ii_pass": false,
+  "iii_pass": true,
+  "verdict": "NEGATIVE result"
+ }
+}

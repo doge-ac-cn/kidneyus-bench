@@ -1,0 +1,103 @@
+{
+ "nnunet_zeroshot_vs_ct": {
+  "n": 59,
+  "bias_ml": 147.85,
+  "loa95_ml": [
+   -54.66,
+   350.37
+  ],
+  "mean_us_pred_ml": 344.43,
+  "mean_ct_ref_ml": 196.57,
+  "bias_ci95_ml_patient39": [
+   127.53,
+   167.84
+  ],
+  "n_patients": 39,
+  "n_kidney_pairs": 59,
+  "level": "per-kidney pair; patient-clustered CI"
+ },
+ "us_gt_vs_ct": {
+  "n": 59,
+  "bias_ml": -26.98,
+  "loa95_ml": [
+   -128.7,
+   74.75
+  ],
+  "mean_us_pred_ml": 169.6,
+  "mean_ct_ref_ml": 196.57,
+  "bias_ci95_ml_patient39": [
+   -38.1,
+   -14.15
+  ],
+  "n_patients": 39,
+  "n_kidney_pairs": 59,
+  "level": "per-kidney pair; patient-clustered CI"
+ },
+ "tta_r2_vs_ct": {
+  "config": "TTA-R2 (MedSAM seed42, r2_s43 detector)",
+  "n_kidney_pairs": 59,
+  "n_patients": 39,
+  "bias_ml": 20.32,
+  "bias_ci95_ml_patient39": [
+   3.99,
+   37.63
+  ],
+  "loa95_ml": [
+   -138.63,
+   179.28
+  ],
+  "mean_us_pred_ml": 216.9,
+  "level": "per-kidney pair; patient-clustered CI",
+  "note": "undetected slices contribute 0 volume; TTA-R2 no-box slice rate 8.3% (clustered near poles) biases US volumes downward - interpret the negative bias with this in mind"
+ },
+ "pairing_rule": "US kidney -> same-patient same-laterality CT component (GT_estimated_masksCT, R = smaller-x centroid); US volume = sum of per-slice predicted area x 0.09 mm2 x 0.3 mm; level = per-kidney (n=59); CI = patient-39 cluster bootstrap; US sub-cohort = 39 of the 48 CT patients",
+ "nnunet_zeroshot_vs_ct_3seed": {
+  "per_seed_bias_ml": {
+   "42": 147.85,
+   "43": 124.4,
+   "44": 99.33
+  },
+  "three_seed_mean_bias_ml": 123.86,
+  "three_seed_bias_ci95_patient39": [
+   105.03,
+   142.62
+  ],
+  "loa95_ml": [
+   -58.48,
+   306.2
+  ],
+  "n_kidney_pairs": 59,
+  "n_patients": 39,
+  "caliber": "per-kidney pair; 3-seed mean predicted volume; patient-clustered CI"
+ },
+ "nnunet_zeroshot_vs_ct_seed43_primary": {
+  "caliber": "registered seed 43",
+  "n_kidney_pairs": 59,
+  "n_patients": 39,
+  "bias_ml": 124.4,
+  "bias_ci95_ml_patient39": [
+   106.04,
+   142.87
+  ],
+  "loa95_ml": [
+   -52.12,
+   300.92
+  ],
+  "mean_us_pred_ml": 320.97,
+  "level": "per-kidney pair; patient-clustered CI"
+ },
+ "tta_r2_vs_ct_seed43": {
+  "caliber": "registered seed 43 (MedSAM seed-43 weights)",
+  "n_kidney_pairs": 59,
+  "bias_ml": 19.98,
+  "bias_ci95_ml_patient39": [
+   2.83,
+   38.64
+  ],
+  "loa95_ml": [
+   -139.54,
+   179.51
+  ],
+  "mean_us_pred_ml": 216.56
+ }
+}

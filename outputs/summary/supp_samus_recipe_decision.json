@@ -1,0 +1,39 @@
+{
+ "item": "Supplementary item 9 (task 2): SAMUS recipe registration check",
+ "retrieval_attempts": {
+  "endpoints": [
+   "https://osf.io/tx7rn/",
+   "https://api.osf.io/v2/registrations/tx7rn/",
+   "https://api.osf.io/v2/registrations/tx7rn/files/osfstorage/",
+   "https://osf.io/tx7rn/files/",
+   "https://osf.io/tx7rn/download",
+   "https://r.jina.ai/https://osf.io/tx7rn/"
+  ],
+  "result": "HTTP 503 on all OSF endpoints (proxy unreachable)",
+  "date": "2026-10-17",
+  "status": "REGISTRATION_DOCUMENT_EN.md not retrievable at this time (OSF outage/WAF)"
+ },
+ "local_registration_basis": {
+  "note": "plan_A v1.4 states the OSF registration content is the integrated plan (REGISTRATION_DOCUMENT_EN.md + plan_A_public_v1.md); the plan's SAMUS clause is the frozen basis available offline.",
+  "quote": "M5 | SAM-MedUS | US专用基础模型 | 2D + box/point提示 | 官方权重直接推理 + OKD轻微微调两版 (plan_A v1.4, model table)",
+  "reading": "official weights + light fine-tuning; no layer/lr/epoch configuration is specified in the offline basis"
+ },
+ "reported_arm_settings": {
+  "modules": "official SAMUS light modules unfrozen (cnn_embed, post_pos_embed, Adapter, rel_pos 2/5/8/11, upneck) + mask decoder -> 43.71M trainable",
+  "optimizer": "AdamW lr 1e-4, cosine over 50 epochs, bs 16",
+  "loss": "pos_weight=2 BCE (+ Dice) on centroid/mask prompts",
+  "source": "scripts/m5_samus.py; DATA_QUALITY.md section 3"
+ },
+ "decision": {
+  "rule": "if the registration text only says 'official weights + light fine-tuning' -> no retraining; the 43.7M light fine-tune is treated as matching the registered intent",
+  "verdict": "NO RETRAIN at this time (offline basis reads as the 'light fine-tuning' clause; the reported 43.71M arm IS the pre-registered light fine-tune)",
+  "archived_variants": {
+   "v1_decoder_only_4.06M": "early attempt (decoder-only training, 4.06M); superseded and archived as a rejected variant"
+  }
+ },
+ "pending_recheck": {
+  "condition": "If REGISTRATION_DOCUMENT_EN.md (once OSF is reachable) specifies concrete SAMUS configuration (layers/lr/epochs) that differs from the reported arm, run the seed-42 point check in the same format as the USFM item and update this record.",
+  "owner": "training side",
+  "next_action": "retry OSF retrieval; record outcome"
+ }
+}

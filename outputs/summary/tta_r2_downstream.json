@@ -1,0 +1,93 @@
+{
+ "medsam": {
+  "42": {
+   "strict": 0.6983,
+   "conditional": 0.7359,
+   "coverage": 0.9488
+  },
+  "43": {
+   "strict": 0.6801,
+   "conditional": 0.7416,
+   "coverage": 0.917
+  },
+  "44": {
+   "strict": 0.6916,
+   "conditional": 0.7209,
+   "coverage": 0.9593
+  },
+  "round2_mean": {
+   "strict": 0.69,
+   "conditional": 0.7328,
+   "coverage": 0.9417
+  }
+ },
+ "sam_lora": {
+  "42": {
+   "strict": 0.6955,
+   "conditional": 0.733,
+   "coverage": 0.9488
+  },
+  "43": {
+   "strict": 0.6775,
+   "conditional": 0.7388,
+   "coverage": 0.917
+  },
+  "44": {
+   "strict": 0.6885,
+   "conditional": 0.7177,
+   "coverage": 0.9593
+  },
+  "round2_mean": {
+   "strict": 0.6872,
+   "conditional": 0.7298,
+   "coverage": 0.9417
+  }
+ },
+ "samus": {
+  "42": {
+   "strict": 0.6009,
+   "conditional": 0.6333,
+   "coverage": 0.9488
+  },
+  "43": {
+   "strict": 0.5945,
+   "conditional": 0.6483,
+   "coverage": 0.917
+  },
+  "44": {
+   "strict": 0.6023,
+   "conditional": 0.6279,
+   "coverage": 0.9593
+  },
+  "round2_mean": {
+   "strict": 0.5992,
+   "conditional": 0.6365,
+   "coverage": 0.9417
+  }
+ },
+ "okd_iv": {
+  "registered": {
+   "det_rate@0.25": 1.0,
+   "ap@0.5": 0.984
+  },
+  "r2_s42": {
+   "det_rate@0.25": 1.0,
+   "ap@0.5": 0.9548
+  },
+  "r2_s43": {
+   "det_rate@0.25": 1.0,
+   "ap@0.5": 0.9811
+  },
+  "r2_s44": {
+   "det_rate@0.25": 0.9798,
+   "ap@0.5": 0.9371
+  },
+  "iv_check": {
+   "replicate_det_mean": 0.9933,
+   "replicate_ap_mean": 0.9577,
+   "det_rate_drop_pp": 0.67,
+   "ap_drop": 0.0263,
+   "pass(drop<=2pp,ap<=0.02)": false
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "arm": "R2-alt: single-start from the REGISTERED detector (three replicates, data-order seeds 42/43/44); downstream = MedSAM seed-43 weights",
+ "caliber": "registered seed 43",
+ "per_replicate": {
+  "s42": {
+   "no_box_rate": 0.1719,
+   "strict": 0.6446,
+   "conditional": 0.7784,
+   "coverage": 0.8281
+  },
+  "s43": {
+   "no_box_rate": 0.2361,
+   "strict": 0.6095,
+   "conditional": 0.7979,
+   "coverage": 0.7639
+  },
+  "s44": {
+   "no_box_rate": 0.1665,
+   "strict": 0.6417,
+   "conditional": 0.7699,
+   "coverage": 0.8335
+  }
+ },
+ "round_mean": {
+  "no_box_rate": 0.1915,
+  "strict": 0.6319,
+  "conditional": 0.7821,
+  "coverage": 0.8085
+ }
+}

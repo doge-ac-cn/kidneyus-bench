@@ -1,0 +1,3 @@
+level,dice_A_vs_GT,dice_B_vs_GT,IoD_mean,dice_A_vs_B_direct
+slice,0.947664,0.947984,0.947824,0.906316
+kidney,0.946986,0.94679,0.946888,0.904691

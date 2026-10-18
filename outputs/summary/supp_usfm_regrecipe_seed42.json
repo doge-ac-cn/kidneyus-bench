@@ -1,0 +1,27 @@
+{
+ "arm": "USFM registered recipe (lr=1e-5, 50 epochs, Dice+BCE, seed 42)",
+ "recipe_source": "plan_A v1.4 \u00a7A1 (frozen registration basis): '\u5fae\u8c03\u534f\u8bae\u5bf9\u9f50 M3 (lr=1e-5\u300150ep)\uff1b\u9a8c\u6536\u95e8 val Dice \u22650.85'",
+ "training_details": {
+  "epochs": 50,
+  "base_lr": 1e-05,
+  "layer_decay": 1.0,
+  "warmup_epochs": 0,
+  "weight_decay": 0.01,
+  "bs": 8,
+  "loss": "Dice+BCE (probability domain, same as official run)"
+ },
+ "internal_val_best": 0.7967,
+ "acceptance_gate_0.85": false,
+ "e1_test_dice": 0.822,
+ "e2_slice_pooled_dice": 0.4585,
+ "official_seed42": {
+  "e1_seed42": 0.8622,
+  "e2_seed42": 0.4687
+ },
+ "delta_vs_official": {
+  "e1": -0.0402,
+  "e2": -0.0102
+ },
+ "n_e1": 99,
+ "n_e2": 18322
+}

@@ -1,0 +1,41 @@
+{
+ "definition": "pole slices = GT area < 15% of the kidney's median (annotation-range edges); means over slices pooled across 3 seeds",
+ "models": {
+  "medsam": {
+   "pole_dice_mean": 0.0008,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.4679,
+   "rest_n": 51968
+  },
+  "sam_lora": {
+   "pole_dice_mean": 0.0008,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.4654,
+   "rest_n": 51975
+  },
+  "samus": {
+   "pole_dice_mean": 0.0008,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.4415,
+   "rest_n": 51975
+  },
+  "nnunet": {
+   "pole_dice_mean": 0.0269,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.6584,
+   "rest_n": 51975
+  },
+  "unet": {
+   "pole_dice_mean": 0.0299,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.3039,
+   "rest_n": 51975
+  },
+  "usfm": {
+   "pole_dice_mean": 0.0611,
+   "pole_n": 2991,
+   "rest_dice_mean": 0.4943,
+   "rest_n": 51975
+  }
+ }
+}

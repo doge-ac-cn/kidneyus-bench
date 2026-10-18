@@ -1,0 +1,155 @@
+{
+ "medsam/tau0.10/seed42": {
+  "n": 18319,
+  "dice_mean": 0.4792,
+  "hd95_mean_valid": 14.01,
+  "hd95_nan_n": 7887
+ },
+ "medsam/tau0.10/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4793,
+  "hd95_mean_valid": 13.96,
+  "hd95_nan_n": 7887
+ },
+ "medsam/tau0.10/seed44": {
+  "n": 18318,
+  "dice_mean": 0.4793,
+  "hd95_mean_valid": 14.03,
+  "hd95_nan_n": 7887
+ },
+ "medsam/tau0.15/seed42": {
+  "n": 18319,
+  "dice_mean": 0.4656,
+  "hd95_mean_valid": 13.38,
+  "hd95_nan_n": 8265
+ },
+ "medsam/tau0.15/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4657,
+  "hd95_mean_valid": 13.33,
+  "hd95_nan_n": 8265
+ },
+ "medsam/tau0.15/seed44": {
+  "n": 18318,
+  "dice_mean": 0.4657,
+  "hd95_mean_valid": 13.4,
+  "hd95_nan_n": 8265
+ },
+ "sam_lora/tau0.10/seed42": {
+  "n": 18322,
+  "dice_mean": 0.478,
+  "hd95_mean_valid": 14.44,
+  "hd95_nan_n": 7887
+ },
+ "sam_lora/tau0.10/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4771,
+  "hd95_mean_valid": 14.3,
+  "hd95_nan_n": 7887
+ },
+ "sam_lora/tau0.10/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4762,
+  "hd95_mean_valid": 14.28,
+  "hd95_nan_n": 7887
+ },
+ "sam_lora/tau0.15/seed42": {
+  "n": 18322,
+  "dice_mean": 0.4644,
+  "hd95_mean_valid": 13.9,
+  "hd95_nan_n": 8265
+ },
+ "sam_lora/tau0.15/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4634,
+  "hd95_mean_valid": 13.75,
+  "hd95_nan_n": 8265
+ },
+ "sam_lora/tau0.15/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4626,
+  "hd95_mean_valid": 13.73,
+  "hd95_nan_n": 8265
+ },
+ "samus/tau0.10/seed42": {
+  "n": 18322,
+  "dice_mean": 0.4354,
+  "hd95_mean_valid": 19.74,
+  "hd95_nan_n": 7887
+ },
+ "samus/tau0.10/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4592,
+  "hd95_mean_valid": 16.43,
+  "hd95_nan_n": 7887
+ },
+ "samus/tau0.10/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4581,
+  "hd95_mean_valid": 16.64,
+  "hd95_nan_n": 7887
+ },
+ "samus/tau0.15/seed42": {
+  "n": 18322,
+  "dice_mean": 0.423,
+  "hd95_mean_valid": 19.21,
+  "hd95_nan_n": 8265
+ },
+ "samus/tau0.15/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4467,
+  "hd95_mean_valid": 15.78,
+  "hd95_nan_n": 8265
+ },
+ "samus/tau0.15/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4456,
+  "hd95_mean_valid": 15.99,
+  "hd95_nan_n": 8265
+ },
+ "medsam/tau0.25/seed42": {
+  "n": 18319,
+  "dice_mean": 0.4424,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "medsam/tau0.25/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4425,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "medsam/tau0.25/seed44": {
+  "n": 18318,
+  "dice_mean": 0.4425,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "sam_lora/tau0.25/seed42": {
+  "n": 18322,
+  "dice_mean": 0.441,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "sam_lora/tau0.25/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4401,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "sam_lora/tau0.25/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4393,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "samus/tau0.25/seed42": {
+  "n": 18322,
+  "dice_mean": 0.402,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "samus/tau0.25/seed43": {
+  "n": 18322,
+  "dice_mean": 0.4258,
+  "note": "unpatched primary rows (operating point)"
+ },
+ "samus/tau0.25/seed44": {
+  "n": 18322,
+  "dice_mean": 0.4247,
+  "note": "unpatched primary rows (operating point)"
+ }
+}

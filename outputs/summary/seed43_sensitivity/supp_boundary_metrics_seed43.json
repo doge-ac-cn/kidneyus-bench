@@ -1,0 +1,51 @@
+{
+ "caliber": "registered seed 43",
+ "nnunet": {
+  "n": 18322,
+  "hd95_mean_valid": 55.74,
+  "hd95_valid_n": 18322,
+  "hd95_nan_n": 0,
+  "nsd_mean": 0.2687,
+  "nsd_zero_n": 2387
+ },
+ "medsam_p3": {
+  "n": 18322,
+  "hd95_mean_valid": 5.72,
+  "hd95_valid_n": 18317,
+  "hd95_nan_n": 5,
+  "nsd_mean": 0.4083,
+  "nsd_zero_n": 21
+ },
+ "medsam_p4reg": {
+  "n": 18322,
+  "hd95_mean_valid": 11.61,
+  "hd95_valid_n": 9434,
+  "hd95_nan_n": 8888,
+  "nsd_mean": 0.186,
+  "nsd_zero_n": 8962
+ },
+ "medsam_tta_r2": {
+  "n": 18322,
+  "hd95_mean_valid": 17.46,
+  "hd95_valid_n": 16802,
+  "hd95_nan_n": 1520,
+  "nsd_mean": 0.2674,
+  "nsd_zero_n": 2434
+ },
+ "samlora_tta_r2": {
+  "n": 18322,
+  "hd95_mean_valid": 18.07,
+  "hd95_valid_n": 16802,
+  "hd95_nan_n": 1520,
+  "nsd_mean": 0.2553,
+  "nsd_zero_n": 2465
+ },
+ "samus_tta_r2": {
+  "n": 18322,
+  "hd95_mean_valid": 21.14,
+  "hd95_valid_n": 16802,
+  "hd95_nan_n": 1520,
+  "nsd_mean": 0.1871,
+  "nsd_zero_n": 2657
+ }
+}

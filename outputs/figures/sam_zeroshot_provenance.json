@@ -1,0 +1,10 @@
+{
+ "n": 50,
+ "rng_seed": 42,
+ "dice_mean": 0.8493,
+ "dice_median": 0.8759,
+ "dice_std": 0.0875,
+ "frac_gt_0.9": 0.24,
+ "frac_lt_0.5": 0.02,
+ "note": "stock SAM vit_b + GT (STAPLE-derived) box, official predictor preprocessing; provenance probe, not part of the benchmark table"
+}

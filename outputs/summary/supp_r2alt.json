@@ -1,0 +1,31 @@
+{
+  "arm": "R2-alt: single-start from the REGISTERED detector (three replicates, seeds 42/43/44)",
+  "per_replicate": {
+    "s42": {
+      "no_box_rate": 0.1719,
+      "strict": 0.6451,
+      "conditional": 0.779,
+      "coverage": 0.8281
+    },
+    "s43": {
+      "no_box_rate": 0.2361,
+      "strict": 0.6098,
+      "conditional": 0.7983,
+      "coverage": 0.7639
+    },
+    "s44": {
+      "no_box_rate": 0.1665,
+      "strict": 0.6421,
+      "conditional": 0.7703,
+      "coverage": 0.8335
+    }
+  },
+  "round_mean": {
+    "no_box_rate": 0.1915,
+    "strict": 0.6323,
+    "conditional": 0.7825,
+    "coverage": 0.8085
+  },
+  "paired_design_reference": "strict 0.680/0.678/0.595, conditional 0.743/0.738/0.651 (medsam/samlora/samus)",
+  "note": "medsam downstream caliber; robustness check for the alternative initialization"
+}

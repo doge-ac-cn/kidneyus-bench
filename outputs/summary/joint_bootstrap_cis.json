@@ -1,0 +1,47 @@
+{
+ "n_boot": 2000,
+ "clusters": 39,
+ "normalized_external_joint": {
+  "point": 0.6956,
+  "ci95": [
+   0.6628,
+   0.7264
+  ]
+ },
+ "normalized_p4_joint": {
+  "point": 0.482,
+  "ci95": [
+   0.4331,
+   0.53
+  ]
+ },
+ "normalized_oracle_joint": {
+  "point": 0.9771,
+  "ci95": [
+   0.9647,
+   0.989
+  ]
+ },
+ "normalized_internal": {
+  "point": 1.028,
+  "ci95": [
+   1.0132,
+   1.0399
+  ],
+  "note": "numerator bootstrap only (OKD clusters; IoD is a TRUSTED constant here)"
+ },
+ "domain_2d_slice_joint": {
+  "point": -0.0496,
+  "ci95": [
+   -0.081,
+   -0.0182
+  ]
+ },
+ "domain_3d_volume_joint": {
+  "point": -0.0669,
+  "ci95": [
+   -0.1084,
+   -0.0272
+  ]
+ }
+}

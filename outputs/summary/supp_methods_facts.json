@@ -1,0 +1,65 @@
+{
+ "yolo_detector": {
+  "model": "YOLOv8s (ultralytics 8.3.108)",
+  "training": "50 epochs, imgsz 640 (default), ultralytics default geometric/color augmentation, seeds 42/43/44, patient-level split 293/94/99 (train/val/test)",
+  "operating_point": "conf >= 0.25 (ultralytics default, fixed at registration); threshold-sensitivity analysis (tau 0.10/0.15/0.25) shows the failure is detection absence, not threshold placement",
+  "source": "scripts/m2_fix_yolo_nnunet.sh, m1_split_okd.py, m5_p4_conf_sensitivity.py, figures/yolo_detection/"
+ },
+ "p4_tta": {
+  "optimizer": "Ultralytics 8.3.108 defaults (SGD momentum 0.937, weight decay 5e-4) with lr0 = 1e-3 (10x below default)",
+  "epochs": 15,
+  "loss": "Ultralytics detection loss (box/cls/dfl) unchanged",
+  "frozen_layers": "none - full fine-tune from the current weights",
+  "augmentation": "registered defaults + per-image p=0.8 draw of 1+ of six domain ops: console text, fan vignette, gamma/contrast, vertical shadow, speckle, cutout (parameters in scripts/m5_tta_aug.py)",
+  "pseudo_labels": "top-1 box per slice at conf >= 0.50; slices without a detection excluded from training (neither positive nor negative)",
+  "compute_cost": {
+   "r1_first_stamp": [
+    "2026-10-11T14:19:25",
+    "[2026-10-11T14:19:25+08:00] r1 seed42 exit=0"
+   ],
+   "r1_last_stamp": [
+    "2026-10-11T23:28:17",
+    "[2026-10-11T23:28:17+08:00] r1 seed44 exit=0 weights=1"
+   ]
+  },
+  "source": "scripts/m5_tta_round.py, m5_tta_aug.py"
+ },
+ "self_training_selection": {
+  "r1_s42": {
+   "n_kept": 8142,
+   "n_total": 18322,
+   "kept_fraction": 0.4444,
+   "mean_area_kept": 26186.6,
+   "mean_area_excluded": 15460.9,
+   "median_area_kept": 24452.0,
+   "median_area_excluded": 14212.0
+  },
+  "r2_s42": {
+   "n_kept": 13487,
+   "n_total": 18322,
+   "kept_fraction": 0.7361,
+   "mean_area_kept": 23724.8,
+   "mean_area_excluded": 10470.9,
+   "median_area_kept": 22416.0,
+   "median_area_excluded": 8588.0
+  },
+  "r2_s43": {
+   "n_kept": 12623,
+   "n_total": 18322,
+   "kept_fraction": 0.689,
+   "mean_area_kept": 24137.2,
+   "mean_area_excluded": 11566.9,
+   "median_area_kept": 22652.0,
+   "median_area_excluded": 9708.0
+  },
+  "r2_s44": {
+   "n_kept": 13688,
+   "n_total": 18322,
+   "kept_fraction": 0.7471,
+   "mean_area_kept": 23525.1,
+   "mean_area_excluded": 10486.0,
+   "median_area_kept": 22300.0,
+   "median_area_excluded": 8556.0
+  }
+ }
+}

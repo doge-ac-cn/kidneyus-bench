@@ -1,0 +1,56 @@
+{
+ "n_boot": 2000,
+ "clusters": 39,
+ "bootstrap_semantics": "patient clusters resampled WITH replacement; duplicates preserved (same as m5_joint_bootstrap.py)",
+ "medsam": {
+  "strict": {
+   "point": 0.6801,
+   "ci95": [
+    0.6582,
+    0.7133
+   ]
+  },
+  "conditional": {
+   "point": 0.7416,
+   "ci95": [
+    0.7194,
+    0.7676
+   ],
+   "note": "point = pooled detected-slice mean (matches the published downstream caliber); CI = patient-cluster bootstrap of per-patient conditional means (duplicates preserved)"
+  }
+ },
+ "sam_lora": {
+  "strict": {
+   "point": 0.6775,
+   "ci95": [
+    0.6533,
+    0.7104
+   ]
+  },
+  "conditional": {
+   "point": 0.7388,
+   "ci95": [
+    0.7141,
+    0.7634
+   ],
+   "note": "point = pooled detected-slice mean (matches the published downstream caliber); CI = patient-cluster bootstrap of per-patient conditional means (duplicates preserved)"
+  }
+ },
+ "samus": {
+  "strict": {
+   "point": 0.5945,
+   "ci95": [
+    0.5738,
+    0.6277
+   ]
+  },
+  "conditional": {
+   "point": 0.6483,
+   "ci95": [
+    0.6276,
+    0.6755
+   ],
+   "note": "point = pooled detected-slice mean (matches the published downstream caliber); CI = patient-cluster bootstrap of per-patient conditional means (duplicates preserved)"
+  }
+ }
+}

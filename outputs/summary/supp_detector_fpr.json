@@ -1,0 +1,18 @@
+{
+ "definition": "adjacent-slice 1-IoU series; flags = local maxima >= median + k*MAD",
+ "n_staple_flags_k3": 3455,
+ "n_adjacent_pairs": 18263,
+ "flag_rate_k3": 0.1892,
+ "threshold_sensitivity_flags": {
+  "k2": 4149,
+  "k3": 3455,
+  "k4": 2904
+ },
+ "null_shuffle_flag_rate": 0.0003,
+ "rater_agreement_jaccard": {
+  "staple_vs_A": 0.11,
+  "staple_vs_B": 0.11,
+  "A_vs_B": 0.176
+ },
+ "note": "shuffled-order flag rate is the chance-level noise floor of the criterion"
+}

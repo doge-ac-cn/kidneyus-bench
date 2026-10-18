@@ -1,0 +1,10 @@
+{
+ "n_kidneys": 59,
+ "n_ann_slices": 18322,
+ "n_key_slices": 3458,
+ "key_fraction": 0.1887,
+ "expected_if_5mm_1in17": 0.0588,
+ "nnunet_seed42_dice_key_slices_mean_over_kidneys": 0.3256,
+ "nnunet_seed42_dice_interp_slices_mean_over_kidneys": 0.6876,
+ "per_kidney_detail": "outputs/metrics/key_slices_trusted.csv (gitignored)"
+}

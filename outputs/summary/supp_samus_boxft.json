@@ -1,0 +1,47 @@
+{
+ "arm": "SAMUS box-prompt fine-tune (seed 42, point-check)",
+ "recipe": {
+  "epochs": 50,
+  "lr": 0.0001,
+  "bs": 8,
+  "loss": "Dice + BCEWithLogits(pos_weight=2)",
+  "trainable": "official light modules + mask decoder + prompt encoder (43.72M)",
+  "prompt": "GT-derived box (same source as MedSAM training)"
+ },
+ "internal_val_best_box": 0.9534,
+ "e1": {
+  "p3": 0.9443,
+  "p4": 0.9165,
+  "p2": 0.8262,
+  "n": 99
+ },
+ "e2": {
+  "p3": 0.8866,
+  "p4": 0.4393,
+  "p2": 0.4616,
+  "n": 18322
+ },
+ "reference_point_trained_arm_seed42": {
+  "e1": {
+   "p3": 0.8938,
+   "p4": 0.8835,
+   "p2": 0.8794
+  },
+  "e2": {
+   "p3": 0.7081,
+   "p4": 0.402,
+   "p2": 0.4777
+  }
+ },
+ "delta_vs_point_trained": {
+  "e1_p3": 0.0505,
+  "e1_p4": 0.033,
+  "e1_p2": -0.0532,
+  "e2_p3": 0.1785,
+  "e2_p4": 0.0373,
+  "e2_p2": -0.0161
+ },
+ "gpu_train_seconds": 1477.8,
+ "eval_seconds": 2508.4,
+ "note": "supplementary arm; not part of the registered main table. Evaluation via the registered inference pathway (m3_common.infer_samus_box); empty prompt -> Dice 0."
+}

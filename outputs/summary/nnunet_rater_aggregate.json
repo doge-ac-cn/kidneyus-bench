@@ -1,0 +1,125 @@
+{
+ "seed42_raterA": {
+  "n": 18322,
+  "dice_mean": 0.619,
+  "dice_std": 0.3452,
+  "dice_median": 0.7949,
+  "hd95_mean_valid": 55.8,
+  "hd95_nan_n": 0
+ },
+ "seed42_raterA_interp": {
+  "n": 14866,
+  "dice_mean": 0.6816,
+  "dice_std": 0.3159
+ },
+ "seed42_raterA_key": {
+  "n": 3456,
+  "dice_mean": 0.3498,
+  "dice_std": 0.3365
+ },
+ "seed42_raterB": {
+  "n": 18322,
+  "dice_mean": 0.6248,
+  "dice_std": 0.347,
+  "dice_median": 0.8029,
+  "hd95_mean_valid": 55.55,
+  "hd95_nan_n": 0
+ },
+ "seed42_raterB_interp": {
+  "n": 14866,
+  "dice_mean": 0.6876,
+  "dice_std": 0.3171
+ },
+ "seed42_raterB_key": {
+  "n": 3456,
+  "dice_mean": 0.3544,
+  "dice_std": 0.34
+ },
+ "seed43_raterA": {
+  "n": 18322,
+  "dice_mean": 0.6145,
+  "dice_std": 0.346,
+  "dice_median": 0.7966,
+  "hd95_mean_valid": 57.71,
+  "hd95_nan_n": 0
+ },
+ "seed43_raterA_interp": {
+  "n": 14866,
+  "dice_mean": 0.678,
+  "dice_std": 0.3176
+ },
+ "seed43_raterA_key": {
+  "n": 3456,
+  "dice_mean": 0.3416,
+  "dice_std": 0.33
+ },
+ "seed43_raterB": {
+  "n": 18322,
+  "dice_mean": 0.621,
+  "dice_std": 0.3477,
+  "dice_median": 0.8039,
+  "hd95_mean_valid": 57.37,
+  "hd95_nan_n": 0
+ },
+ "seed43_raterB_interp": {
+  "n": 14866,
+  "dice_mean": 0.6848,
+  "dice_std": 0.3188
+ },
+ "seed43_raterB_key": {
+  "n": 3456,
+  "dice_mean": 0.3467,
+  "dice_std": 0.3331
+ },
+ "seed44_raterA": {
+  "n": 18322,
+  "dice_mean": 0.6322,
+  "dice_std": 0.3372,
+  "dice_median": 0.8059,
+  "hd95_mean_valid": 51.8,
+  "hd95_nan_n": 0
+ },
+ "seed44_raterA_interp": {
+  "n": 14866,
+  "dice_mean": 0.6925,
+  "dice_std": 0.3075
+ },
+ "seed44_raterA_key": {
+  "n": 3456,
+  "dice_mean": 0.3726,
+  "dice_std": 0.3361
+ },
+ "seed44_raterB": {
+  "n": 18322,
+  "dice_mean": 0.6379,
+  "dice_std": 0.3389,
+  "dice_median": 0.8193,
+  "hd95_mean_valid": 51.46,
+  "hd95_nan_n": 0
+ },
+ "seed44_raterB_interp": {
+  "n": 14866,
+  "dice_mean": 0.6987,
+  "dice_std": 0.3086
+ },
+ "seed44_raterB_key": {
+  "n": 3456,
+  "dice_mean": 0.3767,
+  "dice_std": 0.3392
+ },
+ "seed42_staple": {
+  "n": 18322,
+  "dice_mean": 0.6209,
+  "dice_std": 0.35
+ },
+ "seed43_staple": {
+  "n": 18322,
+  "dice_mean": 0.6168,
+  "dice_std": 0.3511
+ },
+ "seed44_staple": {
+  "n": 18322,
+  "dice_mean": 0.6345,
+  "dice_std": 0.3422
+ }
+}

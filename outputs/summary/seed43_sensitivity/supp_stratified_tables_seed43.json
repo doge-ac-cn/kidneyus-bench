@@ -1,0 +1,107 @@
+{
+ "caliber": "registered seed 43 (nnU-Net seed-43 predictions; MedSAM seed-43 weights)",
+ "definition": {
+  "pole": "canonical pole slices, n=999",
+  "discontinuity": "boundary-discontinuity flags (pole takes precedence: 3,456 - 420 = 3,036)",
+  "rest": "all other scored slices"
+ },
+ "A_vs_B": {
+  "pole": {
+   "n": 999,
+   "dice_mean": 0.6182,
+   "iou_mean": 0.4858
+  },
+  "discontinuity": {
+   "n": 3036,
+   "dice_mean": 0.8877,
+   "iou_mean": 0.81
+  },
+  "rest": {
+   "n": 14287,
+   "dice_mean": 0.9304,
+   "iou_mean": 0.875
+  }
+ },
+ "models": {
+  "nnunet": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.026,
+    "dice_vs_A": 0.0343,
+    "dice_vs_B": 0.0403
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.3817,
+    "dice_vs_A": 0.3837,
+    "dice_vs_B": 0.389
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7081,
+    "dice_vs_A": 0.7042,
+    "dice_vs_B": 0.7109
+   }
+  },
+  "medsam_p3": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.7202,
+    "dice_vs_A": 0.5834,
+    "dice_vs_B": 0.5953
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.8621,
+    "dice_vs_A": 0.832,
+    "dice_vs_B": 0.8362
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.8997,
+    "dice_vs_A": 0.883,
+    "dice_vs_B": 0.886
+   }
+  },
+  "medsam_p4reg": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0008,
+    "dice_vs_A": 0.0008,
+    "dice_vs_B": 0.0015
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.1627,
+    "dice_vs_A": 0.1614,
+    "dice_vs_B": 0.1626
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.5328,
+    "dice_vs_A": 0.5288,
+    "dice_vs_B": 0.5329
+   }
+  },
+  "medsam_tta_r2": {
+   "pole": {
+    "n": 999,
+    "dice_consensus": 0.0447,
+    "dice_vs_A": 0.0631,
+    "dice_vs_B": 0.0591
+   },
+   "discontinuity": {
+    "n": 3036,
+    "dice_consensus": 0.5177,
+    "dice_vs_A": 0.5196,
+    "dice_vs_B": 0.5228
+   },
+   "rest": {
+    "n": 14287,
+    "dice_consensus": 0.7583,
+    "dice_vs_A": 0.7543,
+    "dice_vs_B": 0.7605
+   }
+  }
+ }
+}

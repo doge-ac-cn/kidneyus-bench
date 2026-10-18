@@ -1,0 +1,13 @@
+{
+ "caliber": "registered seed 43: nnU-Net seed-43 prior boxes -> MedSAM seed-43",
+ "n": 18322,
+ "coverage": 1.0,
+ "box_iou_vs_oracle_median": 0.68,
+ "strict_dice_mean": 0.5823,
+ "criterion": {
+  "coverage>=0.75": true,
+  "iou_median>=0.70": false,
+  "dice>=0.55": true
+ },
+ "verdict": "diagnostic/negative"
+}
